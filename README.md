@@ -1,20 +1,13 @@
-# [@araceligonzalezluna] (https://www.linkedin.com/in/arylunaprogramacion/)
+## Portafolio de Proyectos 
+Hola Soy ***Araceli Gonzalez Luna***, soy Desarrolladora Web Jr. Apasionada por las TI y este es mi **Portafolio de Proyectos**
 
-![Araceli Gonzalez Luna - Programadora Web Frontend Jr.]()
+### El proyecto cuenta con las siguientes secciones:
+<li>Habilidades</li>
+<li>Proyectos</li>
+<li>Testimonios</li>
+<li>Contacto</li>
 
-![GitHub profile](https://github.com/AryLuna)
-<li><b> Name: </b>Araceli Gonzalez Luna</li>
-<li><b> Pronouns: </b> She/Her </li>
-<li><b> Location: </b> Juarez City JRZ </li>
-<li><b> Languages: </b> English & Spanish </li>
-
-## Hola, bienvenido a mi perfil.
-
-🎓Me encuentro en un viaje de aprendizaje sobre TI 🔧Habilidades Técnicas: HTML, CSS, JavaScript, React y Git.
-> Disfruto aprendiendo cosas nuevas y compartirlo con otras personas.
-### Frameworks y Herramientas
-
-Listado de tecnologías que uso .
+### Lo he Creado utilizando:
 
 <a href="https://www.w3schools.com/css/" target="_blank"><img
 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
