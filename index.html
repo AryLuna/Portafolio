@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Fav icon-->
+    <link rel="shortcut icon" href="assets/robot.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Caveat:wght@400..700&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sarina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ary Luna</title>
+</head>
+<body>
+    <header class="d-flex flex- wrao justify-content py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-robot" viewBox="0 0 16 16">
+                <path d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5M3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.6 26.6 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.93.93 0 0 1-.765.935c-.845.147-2.34.346-4.235.346s-3.39-.2-4.235-.346A.93.93 0 0 1 3 9.219zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a25 25 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25 25 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135"/>
+                <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2zM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5"/>
+              </svg>
+              <i class="bi bi-code p-3"></i>
+            <span class="fs-4">Araceli Gonzalez Luna</span>
+        </a>
+        <ul class="nav nav-pills">
+            <li class="nav-item boton-perfil">
+                <a id="boton-perfil" href="#conoceme" class="nav-link active perfil" aria-current="page">Conóceme</a>
+            </li>
+            <li class="nav-item"><a href="#featured-3 habilidades" class="nav-link">Habilidades</a></li>
+            <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <!--Hero-->
+        <div id="conoceme" class="hero">
+            <div class="px-4 py-5 my-5 text-center">
+                <img class="d-block mx-auto mb-4 rounded-circle" src="assets/fae35521-52ba-4ab2-a2a7-ad80296bda2a.jpg" alt="" width="200">
+                <h1 class="display-5 fw-bold text-body-emphasis">Araceli Gonzalez Luna</h1>
+                <h2 id="app"></h2>
+                <div class="col-lg-6 mx-auto">
+                  <p class="lead mb-4">Soy una Desarrolladora Web JR con habilidades en HTML, CSS, JavaScript, Git, GitHub, React y Diseño Web enfocada en el desarrollo front-end. Me encanta transformar ideas en interfaces visuales atractivas y funcionales, siempre buscando mejorar la experiencia del usuario. Con una mentalidad creativa y un enfoque en la resolución de problemas. 
+                    Cuando algo me apasiona, mi principal objetivo en sobresalir y alcanzar mi máximo potencial en esa área. Para mí, es una satisfacción personal saber cuánto puedo ofrecer y contribuir a los demás. </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"><button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv"> Mira aquí mi CV </button></div>
+                </div>
+              </div>
+        </div>
+        <!--Habilidades-->
+        <div class="caja-habilidades">
+          <div class="habilidades container px-4 py-5" id="featured-3 habilidades">
+            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+              <div class="feature col">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+                  <i class="bi bi-terminal"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Desarrollo Web Front-end</h3>
+                <p>Experta en HTML, CSS, y JavaScript, con un enfoque en la usabilidad y la experiencia del usuario. Comprometida con la entrega de proyectos de alta calidad que combinan estética y funcionalidad. Soy proactiva y detallista, siempre buscando mejorar y aprender nuevas técnicas para ofrecer soluciones innovadoras y eficientes.</p>
+  
+              </div>
+              <div class="feature col">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+                  <i class="bi bi-palette"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Diseñadora Gráfica</h3>
+                <p>Mis habilidades en diseño gráfico incluyen el dominio de herramientas como Adobe Photoshop e Illustrator, así como un profundo conocimiento de los principios de color, tipografía y composición. Mi experiencia en diseño gráfico complementa perfectamente mi capacidad para desarrollar interfaces web atractivas y optimizadas para la experiencia del usuario.</p>
+  
+              </div>
+              <div class="feature col">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+                  <i class="bi bi-camera"></i>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Fotógrafa Profesional</h3>
+                <p>Mis habilidades en fotografía complementan perfectamente mi capacidad para desarrollar interfaces web atractivas y funcionales. Creo que una imagen vale más que mil palabras, y aplico esta filosofía al diseño web, asegurando que cada proyecto no solo sea estéticamente agradable, sino también eficiente y fácil de usar.</p>
+  
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div id="proyectos" class="proyectos container mt-5">
+          <h2 class="pb-2 border-bottom">Proyectos</h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" src="assets/pinterestclone.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Clon de Pinterest</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" ta class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://pinterest-clon-iota.vercel.app/">Ver</a></button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://github.com/AryLuna/PinterestClon">GitHub</a></button>
+                    </div>
+                    <small class="text-body-secondary">HTML | CSS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" src="assets/galeriagibli.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Galería Películas Ghibli</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" ta class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://pinterest-clon-iota.vercel.app/">Ver</a></button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://github.com/AryLuna/PinterestClon">GitHub</a></button>
+                    </div>
+                    <small class="text-body-secondary">HTML | CSS | JS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img class="bd-placeholder-img card-img-top" src="assets/delicias.png" alt="">
+                <div class="card-body">
+                  <p class="card-text">Cafetería Delicias & Co.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" ta class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://aryluna.github.io/Cafeter-a-Delicias-Co/">Ver</a></button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary btn-proyecto"><a target="_blank" href="https://github.com/AryLuna/Cafeter-a-Delicias-Co">GitHub</a></button>
+                    </div>
+                    <small class="text-body-secondary">HTML | CSS</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      <div id="testimonios" class="testimonios container mt-5">
+        <h2 class="pb-2 border-bottom">Testimonios</h2>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/testimonio.jpeg" class="card-img-top rounded-circle" alt="...">
+                  <h5 class="card-title text-center">Ana Paula Gutierrez</h5>
+                  <h6 class="card-subtitle text-center text-body-secondary">Lic. en Idiomas </h6>
+                  <div class="card-body">
+                    <p class="card-text">He tenido la oportunidad de ver el trabajo de Araceli como programadora y realmente me ha impresionado. Sus habilidades técnicas y su capacidad para desarrollar soluciones efectivas son notables. Siempre entrega proyectos bien estructurados y de alta calidad. Es una profesional comprometida y confiable, y sin duda su trabajo habla por sí mismo..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/ade.enc" class="card-img-top rounded-circle" alt="...">
+                  <h5 class="card-title text-center">Adelina Trejo</h5>
+                  <h6 class="card-subtitle text-center text-body-secondary">Ing. Tecnologías Computacionales</h6>
+                  <div class="card-body">
+                    <p class="card-text">Pocas personas logran combinar de manera tan destacada el liderazgo, la creatividad y la disciplina como Araceli. Su capacidad para emprender e impulsar proyectos con visión y autodeterminación es una cualidad que la distingue como profesional. Además, su liderazgo natural y su habilidad para fomentar la colaboración la convierten en un elemento valioso en cualquier entorno. Estoy convencida de que su compromiso y talento la llevarán a superar expectativas y a cumplir cualquier meta que se proponga.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/testimonio2.webp" class="card-img-top rounded-circle" alt="...">
+                  <h5 class="card-title text-center">Anel Montes</h5>
+                  <h6 class="card-subtitle text-center text-body-secondary">Mentora en Tecnolochicas Pro</h6>
+                  <div class="card-body">
+                    <p class="card-text">Araceli muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Araceli seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card border-0" style="width: 18rem;">
+                  <img src="assets/jael.jpg" class="card-img-top rounded-circle" alt="...">
+                  <h5 class="card-title text-center">Jael Juárez</h5>
+                  <h6 class="card-subtitle text-center text-body-secondary">Web Development Jr</h6>
+                  <div class="card-body">
+                    <p class="card-text">Es raro encontrar profesionales como Araceli, cuya combinación de habilidades técnicas, pensamiento estratégico y capacidad para liderar proyectos generan un impacto tangible. Su enfoque orientado a resultados, junto con su creatividad y disposición para colaborar, la convierten en un elemento clave en cualquier equipo. Su compromiso con la excelencia y su habilidad para adaptarse a cualquier desafío son un verdadero reflejo de su potencial como profesional. Recomiendo a Araceli sin reservas, segura de que será una pieza fundamental en cualquier proyecto o iniciativa en la que participe.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contacto" class="px-4 py-5 my-5 text-center">
+        <i class="bi bi-chat-right-text-fill d-block mx-auto mb-4 fs-1"></i>
+        <h1 class="display-5 fw-bold text-body-emphasis">Contáctame</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Contáctame para iniciar un nuevo proyecto.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="mailto:araceliluna.0999@gmail.com"><button type="button" class="btn btn-outline-danger btn-lg px-4 gap-3">E-mail</button></a>
+            <a href="https://www.linkedin.com/in/arylunaprogramacion/" target="_blank">
+              <button type="button" class="btn btn-danger btn-lg px-4">LinkedIn</button>
+          </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2">Inicio</a></li>
+        <li class="nav-item"><a href="https://github.com/AryLuna" class="nav-link px-2 text-body-danger"><i class="bi bi-github"></i></a></li>
+        <li class="nav-item"><a href="https://discord.gg/7YdNAcS9" class="nav-link px-2 text-body-danger"><i class="bi bi-discord"></i></a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/in/arylunaprogramacion/" class="nav-link px-2 text-body-danger"><i class="bi bi-linkedin"></i></a></li>
+        <li class="nav-item"><a href="https://wa.me/5216563062918" class="nav-link px-2 text-body-danger"><i class="bi bi-whatsapp"></i></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Ary Luna</p>
+    </footer>
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!--Typewriter-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <!--Main js-->
+    <script src="app.js"></script>
+</body>
+</html>
